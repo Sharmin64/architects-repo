@@ -1,0 +1,312 @@
+/* font link import*/
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Dancing+Script&family=Lato:ital@1&family=Ms+Madi&family=Open+Sans:ital,wght@0,600;0,700;1,400&family=Poppins:ital,wght@1,500&display=swap');
+
+/* header style */
+.container{
+    background-color: rgba(255, 114,14,0.1);
+    width: 100%;
+    height: 100%;
+}
+.container .banner>img{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    padding-left: 90px;
+}
+.head> h3{
+    font-weight: 600;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 30px;
+
+}
+.header>.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list p{
+    float: right;
+    justify-content:space-around ;
+    display: flex;
+    margin-right: 30px;
+    padding-right: 25px;
+}
+
+/* brand new section style  */
+.brand{
+    width: 700px;
+    height: 150px;
+    margin: 25px 140px;
+   text-align: center;
+   flex-wrap: wrap;
+  justify-items: center;
+}
+.sec-brand h1{
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+   
+}
+.sec-brand .btn{
+    background-color: orange;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 8px;
+
+}
+/* banner img style */
+.banner img{
+    width: 800px;
+    height: 100%;
+    background-size: cover;
+
+}
+/* main section er quick list portion style */
+.quick-list{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-left: 60px ;
+    margin-top: 20px;
+   
+   
+   
+}
+.quick-img>img{
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+}
+.quick-text{
+    justify-content: center;
+    padding-top: 85px;
+    font-family: 'Poppins', sans-serif;
+}
+.quick-text> .quick-btn{
+    background-color: coral;
+    color: azure;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+
+}
+/* 10+year experience  and feature section style  */
+.contain-two{
+    height: 400px;
+}
+.content{
+    width: 800px;
+    height: 500px;
+    position: relative;
+    margin-left: 80px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    flex-direction: row;
+   
+   
+} 
+ .text{
+    width: 350px;
+    height: 150px;
+    padding: 0;
+    margin:20px 8px;
+    
+    display: flex;
+    flex-direction: column;
+    border: none;
+    box-shadow: 2px 5px 4px aliceblue;
+    box-sizing: content-box;
+}
+
+
+#parent{
+    position: relative;
+}
+.image{
+    width:400px ;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.year{
+    width: 110px;
+    height: 100px;
+    position: absolute;
+    top:410px;
+    bottom: 0;
+    right: 250px;
+    padding-left: 50px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    z-index: 5;
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+    color: azure;
+}
+.year> h3{
+    font-weight: 600;
+    font-size: 28px;
+}
+.text #feature-title{
+    word-wrap: break-word;
+    border-left: 5px solid orange;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 0 10px;
+}
+
+
+.content .text{
+    display: flex;
+flex-direction: column;
+
+}
+.image>img{
+   width: 400px;
+   height: 500px;
+}
+.image> div{
+    width: 130px;
+    border: 2px solid blueviolet;
+    padding-top: -25px;
+    margin-top: calc(.6);
+    background-color: coral;
+}
+.image button{
+    padding: 20px;
+    overflow-y: visible;
+    position: bottom;
+    background-color: coral;
+    color: azure;
+    padding-top: 40px;
+    margin-bottom: 25px;
+}
+/* some fact section style  */
+.fact-container{
+    width: 100%;
+    height: 400px;
+    background-color:aliceblue;
+    margin-top: 200px;
+    
+}
+.fact .fact-para{
+justify-content: left;
+font-family: 'Poppins', sans-serif;
+padding-left: 35px;
+}
+.fact .fact-title{
+    justify-content: left;
+font-family: 'Poppins', sans-serif;
+padding-left: 35px;
+}
+.fact-container .sub-box{
+    display: flex;
+    flex-direction: row;
+}
+.sub-box{
+    width: 90%;
+    padding: 20px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+.fact-box{
+    width: 200px;
+    justify-content: center;
+    background-color: azure;
+    margin: 0 10px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    transition: 1s;
+   
+}
+.fact-box:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+.fact-box > img {
+    align-items: center;
+  
+    padding: 3px 60px;
+}
+.fact-box> h2{
+    align-items: center;
+    padding: 0 60px;
+    color: rgb(63, 63, 63);
+}
+.fact-box  p{
+    padding:  0 48px;
+    color: rgb(110, 109, 109);
+}
+/* Extra new section  */
+.new {
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+    border: 3px solid aliceblue;
+    box-shadow: 5px 5px 5px azure;
+}
+.extra-new >.new-title{
+    justify-content: center;
+   padding-left: 260px;
+   font-family: 'Poppins', sans-serif;
+}
+.img{
+    display: flex;
+    flex-direction: row;
+}
+.img img{
+    width: 200px;
+    height: 200px;
+    margin: 40px;
+    border-radius: 5px;
+}
+.img p{
+    word-wrap: break-word;
+    border-left: 8px solid coral;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+/* sponsor section style  */
+.sponsor{
+    padding-top: 80px;
+}
+.heading{
+    justify-content: center;
+    text-align: center;
+    word-wrap: break-word;
+}
+.brand-sponsor{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 25px;
+    height: 150px;
+}
+.company> img{
+    width: 50%;
+    padding: 0 34px;
+   
+}
+/* -----------------------
+ footer section style 
+ ----------------------*/
+ .foot-container{
+    width: 500px;
+ }
+ .footer{
+    width: 490px;
+    height: 80px;
+    margin-left: 50px;
+    align-items: center;
+    padding: 15px 200px;
+    font-family: 'Poppins', sans-serif;
+    background-color: antiquewhite;
+    border: 2px solid aliceblue;
+    color: rgb(111, 110, 110);
+
+ }
+ 
